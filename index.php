@@ -17,7 +17,7 @@ $path = $_SERVER['REQUEST_URI'];
 $p1 = stristr($root.$path, 'resume',true);
 $p2 = stristr($root.$path, 'resume');
 $p2 = stristr($p2,'/',true);
-echo $p1.$p2;
+//echo $p1.$p2;
 //echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
 

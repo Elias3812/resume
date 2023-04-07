@@ -9,6 +9,8 @@ Route::set('about-us',function(){
 Route::set('contact-us',function(){
     ContactUs::CreateView("ContactUs");
 });
-
+Route::set('skill-page',function(){
+    SkillPage::CreateView("SkillPage");
+});
 
 ?>
