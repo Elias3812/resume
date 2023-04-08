@@ -13,14 +13,8 @@
     
     <header>
       
-         <h1>Резюме</h1>
+         <h1>Резюме на позицію Junior PHP Developer</h1>
       
     </header>
     
-    <?php
-    
-
-
-
-
-    ?>
+   

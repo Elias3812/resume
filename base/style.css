@@ -1,11 +1,4 @@
-header{
-    left: 0px;
-    top: 0px;
-    
-
- }
-
- header,footer{
+header,footer{
     margin-left: 0px;
     text-align:center ;
     color: white;   
@@ -18,22 +11,38 @@ header{
     padding: 0px;
     margin: 0px;
  }
+ main{
+    
+    width: 80%;
+    margin: 0 auto;
+
+ }
  .mainBlock{
-    color:red;
+    color:white;
     width :40%;
+    
     background-color: #798B8F;
     padding: 5px;
-    margin:5px;
+    margin:15px;
     display: inline-block;
+    border :#798B8F solid 1px;
+    border-radius: 5px;
+    
  }
  @media screen and (max-width: 700px){
     .mainBlock{
-        color:red;
+        
         width :80%;
-        background-color: #798B8F;
-        padding: 5px;
-        margin:5px;
-        display: inline-block;
+        
      }
     
+ }
+ img{
+    width:100%
+ }
+ a{
+    text-decoration: none;
+ }
+ a:hover{
+    color:aquamarine;
  }
