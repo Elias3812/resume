@@ -13,13 +13,13 @@ header,footer{
  }
  main{
     
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
  }
  .mainBlock{
     color:white;
-    width :40%;
+    width :45%;
     
     background-color: #798B8F;
     padding: 5px;
@@ -38,7 +38,8 @@ header,footer{
     
  }
  img{
-    width:100%
+    width:60%;
+    padding:1% 20%;
  }
  a{
     text-decoration: none;
