@@ -1,3 +1,4 @@
+
 <?php   
 
 spl_autoload_register(function ($class) {
@@ -17,8 +18,13 @@ $path = $_SERVER['REQUEST_URI'];
 $p1 = stristr($root.$path, 'resume',true);
 $p2 = stristr($root.$path, 'resume');
 $p2 = stristr($p2,'/',true);
+//echo $_GET['url'];
 //echo $p1.$p2;
 //echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
+
+
+
 
 
 ?> 
