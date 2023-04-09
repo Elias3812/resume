@@ -1,6 +1,7 @@
 
-<?php   
 
+<?php   
+//echo (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] ;
 spl_autoload_register(function ($class) {
     if (file_exists('./classes/' . $class . '.php')){
         require_once './classes/' . $class . '.php';
@@ -12,16 +13,11 @@ spl_autoload_register(function ($class) {
    
 });
 require_once('Routes.php');
+//echo Route::get_base_url();
 
-$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] ;
-$path = $_SERVER['REQUEST_URI'];
-$p1 = stristr($root.$path, 'resume',true);
-$p2 = stristr($root.$path, 'resume');
-$p2 = stristr($p2,'/',true);
-//echo $_GET['url'];
-//echo $p1.$p2;
-//echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
+
+        
 
 
 

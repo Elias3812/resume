@@ -43,7 +43,14 @@ header,footer{
  }
  a{
     text-decoration: none;
+    
  }
+    
  a:hover{
-    color:aquamarine;
+    color:rgb(230, 122, 122);
+   
+ }
+ table,td,th{
+   border:#233345 1px solid;
+
  }
