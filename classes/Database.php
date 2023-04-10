@@ -1,5 +1,5 @@
 <?php
-class DataBase {
+class Database {
     public static $host="localhost";
     public static $dbName="resume";
     public static $username="root";

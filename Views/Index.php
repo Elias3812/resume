@@ -1,7 +1,7 @@
 <title>Головна</title>
 
 
-<?php echo Route::get_url(); ?>
+
 <main>
     <div class="mainBlock"><img src="contents/me.jpeg">
         <h2>Моє резюме </h2>

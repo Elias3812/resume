@@ -1,11 +1,21 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+div{
+   padding-left:20px;
+   padding-right: 20px;
+
+}
+
 header,footer{
-    margin-left: 0px;
     text-align:center ;
     color: white;   
     width: 100%;
 
     background-color: #233345;
  }
+
  body{
     background: #D9D9D9;
     padding: 0px;
@@ -54,3 +64,34 @@ header,footer{
    border:#233345 1px solid;
 
  }
+ #skill{
+   padding-left: 5%;
+ }
+ li{
+   margin-left:25px;
+ }
+ h1{
+   padding-left: 35px;
+   padding-bottom: 10px;
+ }
+
+
+ html, body {
+   height: 100%;
+   
+}
+
+
+
+footer {
+   position: absolute;
+   bottom: 0;
+   height: 50px; 
+   
+}
+main {
+   padding-bottom: 50px; /* Висота футера */
+}
+ 
+ 
+ 

@@ -10,7 +10,7 @@
    </head>
    <body>
       
-    
+   
     <header>
       
          <h1>Резюме на позицію Junior PHP Developer</h1>

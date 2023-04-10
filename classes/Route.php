@@ -7,17 +7,17 @@ class Route {
     public static function get_url(){
         $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] ;
         $path = $_SERVER['REQUEST_URI'];
-        $p1 = stristr($root.$path, 'test',true);
-        $p2 = stristr($root.$path, 'test');
-        $n=substr($p2,5);
+        $p1 = stristr($root.$path, 'resume',true);
+        $p2 = stristr($root.$path, 'resume');
+        $n=substr($p2,7);
         
         return $n;
     }
     public static function get_base_url(){
         $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] ;
         $path = $_SERVER['REQUEST_URI'];
-        $p1 = stristr($root.$path, 'test',true);
-        $p2 = stristr($root.$path, 'test');
+        $p1 = stristr($root.$path, 'resume',true);
+        $p2 = stristr($root.$path, 'resume');
         $p2 = stristr($p2,'/',true);
         return $p1.$p2;
     }
