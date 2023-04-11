@@ -25,15 +25,19 @@ header,footer{
     
     width: 90%;
     margin: 0 auto;
+    
 
  }
  .mainBlock{
     color:white;
     width :45%;
+
     
     background-color: #798B8F;
     padding: 5px;
-    margin:15px;
+    margin: 15px;
+
+
     display: inline-block;
     border :#798B8F solid 1px;
     border-radius: 5px;
@@ -57,7 +61,7 @@ header,footer{
  }
     
  a:hover{
-    color:rgb(230, 122, 122);
+    color:rgb(0, 247, 74);
    
  }
  table,td,th{
@@ -66,6 +70,7 @@ header,footer{
  }
  #skill{
    padding-left: 5%;
+   
  }
  li{
    margin-left:25px;
@@ -81,7 +86,12 @@ header,footer{
    
 }
 
-
+.wrapper {
+   min-height: 100%;
+   position: relative;
+   padding-left:0px;
+   padding-right: 0px;
+}
 
 footer {
    position: absolute;
@@ -89,9 +99,28 @@ footer {
    height: 50px; 
    
 }
-main {
-   padding-bottom: 50px; /* Висота футера */
+#main {
+   margin-bottom: 50px; 
 }
+#null{
+   margin: 15px;
+    margin-bottom:65px;
+
+    display: inline-block;
+}
+#controll{
+   background-color: #2b96e2d7;
+   border-radius: 5px;
+   border: #2b96e2d7 solid 1px;
+   padding: 20px;
+   margin:15px;
+   width:300px;
+}
+h3{
+   text-indent: 20px;
+   
+}
+
  
  
  

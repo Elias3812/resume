@@ -1,6 +1,4 @@
 
-<h3><a href="<?php echo Route::get_base_url();?>">&nbsp&nbsp&nbspНа головну  </a></h3>
-
 <?php 
 $id = substr(Route::get_url(), -2);
 if ($id[0] =='/') {
@@ -11,12 +9,29 @@ $result = Database::query("SELECT * FROM `skills` WHERE `id` = {$id}");
 
 
 ?>
+<div id="controll">
+<?php  
+if ($id!="1"):?>
 
+<h3><a href="<?php echo Route::get_base_url().'/skill-page/'.$id-1;?>">Попередня сторінка  </a></h3>
+<?php endif;
+?>
+
+
+<h3><a href="<?php echo Route::get_base_url();?>">На головну  </a></h3>
+<?php  
+if ($id!="11"):?>
+
+<h3><a href="<?php echo Route::get_base_url().'/skill-page/'.$id+1;?>">Наступна сторінка  </a></h3>
+<?php endif;
+?>
+
+</div>
 <div id="skill">
 
 <?php
 while ($row = mysqli_fetch_assoc($result)) {
-    echo "<h1>".$row['name']."</h1><br><h3>".$row['short description']."</h3><br><p>".$row['description']."</p>";
+    echo "<h1>".$row['name']."</h1><br><h2>".$row['short description']."</h2><br><h3>".$row['description']."</h3>";
 }
 if ($id=='2'){
     ?>

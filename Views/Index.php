@@ -2,8 +2,8 @@
 
 
 
-<main>
-    <div class="mainBlock"><img src="contents/me.jpeg">
+
+    <div class="mainBlock"><img src="https://raw.githubusercontent.com/Elias3812/resume/main/contents/me.jpeg">
         <h2>Моє резюме </h2>
         <h4>Мене звати Пахнюк Ілля Олександрович. Рік народження 2004. Місце проживання Київ вул. Борщагівська 148. Номер телефону 0951454792. Електронна адреса illprt56@gmail.com . </h4>
    
@@ -31,4 +31,4 @@
     
     
 
-</main>
+
